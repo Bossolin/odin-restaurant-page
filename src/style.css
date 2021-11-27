@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;500;700&family=Montserrat:wght@100;300;500;700;800;900&display=swap");
+
+* {
+  font-family: "Crimson Pro", serif;
+  font-weight: 300;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  position: fixed;
+  padding: 0.5rem;
+  background-color: black;
+  display: flex;
+  max-height: 4rem;
+  justify-content: center;
+}
+
+header div {
+  flex: 1;
+}
+
+main {
+  height: 100%;
+  color: white;
+  margin-top: 4rem;
+  padding: 2rem;
+  background-image: url("../img/casa_background.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+main h1 {
+  font-weight: bold;
+}
+
+main p {
+  margin-top: 1rem;
+}
+
+footer {
+  height: 3rem;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  height: 2rem;
+  width: 4rem;
+  font-size: 1.5rem;
+}
+
+.header-logo {
+  padding-left: 0.5rem;
+}
+
+.header-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-menu {
+  padding-right: 2rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+}
