@@ -7,6 +7,7 @@ module.exports = {
     index: "./src/index.js",
     header: "./src/Header.js",
     footer: "./src/Footer.js",
+    main: "./src/Main.js",
   },
   devtool: "inline-source-map",
   plugins: [
