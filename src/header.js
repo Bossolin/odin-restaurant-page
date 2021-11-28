@@ -30,11 +30,17 @@ const Header = (() => {
     const headerMenu = document.createElement("div");
     headerMenu.classList.add("header-menu");
 
+    const home = document.createElement("a");
+    home.innerText = "Home";
+    home.href = "";
     const menu = document.createElement("a");
     menu.innerText = "Menu";
+    menu.href = `http://www.casainferno.no/files/000-CURRENT%20MENU.pdf`;
     const about = document.createElement("a");
     about.innerText = "About";
+    about.href = "";
 
+    headerMenu.appendChild(home);
     headerMenu.appendChild(menu);
     headerMenu.appendChild(about);
 

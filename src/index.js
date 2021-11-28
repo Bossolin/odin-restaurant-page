@@ -2,6 +2,7 @@ import "./style.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import Main from "./Main";
+import About from "./About";
 
 const index = (() => {
   const body = document.querySelector("body");
