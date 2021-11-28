@@ -1,7 +1,7 @@
 import logo1 from "../img/casa_logo_1.png";
 import logo2 from "../img/casa_logo_2.png";
 
-const header = (() => {
+const Header = (() => {
   const header = document.createElement("header");
 
   const headerLogo = (() => {
@@ -20,7 +20,6 @@ const header = (() => {
     headerMain.classList.add("header-main");
 
     const img = document.createElement("img");
-    console.log(logo2);
     img.src = logo2;
     headerMain.appendChild(img);
 
@@ -49,4 +48,4 @@ const header = (() => {
   return header;
 })();
 
-export default header;
+export default Header;

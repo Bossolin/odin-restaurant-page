@@ -5,7 +5,8 @@ module.exports = {
   mode: "development",
   entry: {
     index: "./src/index.js",
-    header: "./src/header.js",
+    header: "./src/Header.js",
+    footer: "./src/Footer.js",
   },
   devtool: "inline-source-map",
   plugins: [
