@@ -34,12 +34,10 @@ header div {
 }
 
 main {
-  height: 100%;
   color: white;
   margin-top: 4rem;
   padding: 2rem;
   background-image: url("../img/casa_background.jpeg");
-  background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
