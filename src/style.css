@@ -40,8 +40,10 @@ main {
   padding: 2rem;
   background-image: url("../img/casa_background.jpeg");
   background-size: 100%;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
+  text-shadow: black 1px 1px;
 }
 
 main h1 {
