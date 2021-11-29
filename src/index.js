@@ -19,7 +19,15 @@ const index = (() => {
 
   const clickHandler = (e) => {
     e.preventDefault();
-    console.log(e.target);
+    console.log(e.target.classList[0]);
+
+    const page = e.target.classList[0];
+
+    if (page == "home") {
+      content.replaceChild(Main, content.childNodes[1]);
+    } else if (page == "about") {
+      content.replaceChild(About, content.childNodes[1]);
+    }
   };
 
   homeLink.addEventListener("click", clickHandler);
