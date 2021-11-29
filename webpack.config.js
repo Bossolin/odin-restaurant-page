@@ -2,7 +2,6 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  mode: "development",
   entry: {
     index: "./src/index.js",
     header: "./src/Header.js",
@@ -10,10 +9,10 @@ module.exports = {
     main: "./src/Main.js",
     about: "./src/About.js",
   },
-  devtool: "inline-source-map",
+
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Development",
+      title: "Casa Inferno",
     }),
   ],
   output: {
