@@ -31,12 +31,14 @@ const Header = (() => {
     headerMenu.classList.add("header-menu");
 
     const home = document.createElement("a");
+    home.setAttribute("class", "home");
     home.innerText = "Home";
     home.href = "";
     const menu = document.createElement("a");
     menu.innerText = "Menu";
     menu.href = `http://www.casainferno.no/files/000-CURRENT%20MENU.pdf`;
     const about = document.createElement("a");
+    about.setAttribute("class", "about");
     about.innerText = "About";
     about.href = "";
 

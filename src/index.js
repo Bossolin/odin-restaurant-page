@@ -13,4 +13,15 @@ const index = (() => {
   content.appendChild(Main);
   content.appendChild(Footer);
   body.appendChild(content);
+
+  const homeLink = document.querySelector(".home");
+  const aboutLink = document.querySelector(".about");
+
+  const clickHandler = (e) => {
+    e.preventDefault();
+    console.log(e.target);
+  };
+
+  homeLink.addEventListener("click", clickHandler);
+  aboutLink.addEventListener("click", clickHandler);
 })();
