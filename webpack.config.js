@@ -2,6 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  mode: "development",
   entry: {
     index: "./src/index.js",
     header: "./src/Header.js",
@@ -9,7 +10,7 @@ module.exports = {
     main: "./src/Main.js",
     about: "./src/About.js",
   },
-
+  devtool: "inline-source-map",
   plugins: [
     new HtmlWebpackPlugin({
       title: "Casa Inferno",
@@ -19,6 +20,11 @@ module.exports = {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
+  },
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
   },
   module: {
     rules: [
