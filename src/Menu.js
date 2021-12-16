@@ -1,3 +1,4 @@
+import Hamburger from "./Hamburger";
 import Listeners from "./Listeners";
 
 const Menu = () => {
@@ -28,13 +29,13 @@ const Menu = () => {
   };
 
   const renderMobile = () => {
-    console.log("renderMobile");
-
     while (headerMenu.lastChild) {
       headerMenu.lastChild.remove();
     }
 
-    Listeners();
+    Hamburger.hamIcon();
+
+    // Listeners();
   };
 
   const updateMedia = () => {

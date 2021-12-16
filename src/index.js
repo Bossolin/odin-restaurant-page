@@ -9,9 +9,9 @@ const index = (() => {
   const content = document.createElement("div");
   content.setAttribute("id", "content");
 
+  body.appendChild(content);
   content.appendChild(Header);
   content.appendChild(Main);
   content.appendChild(Footer);
-  body.appendChild(content);
   Menu();
 })();

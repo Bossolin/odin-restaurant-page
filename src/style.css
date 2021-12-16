@@ -89,13 +89,30 @@ a {
   gap: 0.5rem;
 }
 
-.hamburger {
-  color: white;
+.burger {
+  background-color: black;
+  padding: 0.1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.25rem;
+  height: 2rem;
+}
+
+.patty {
+  background-color: white;
+  width: 2rem;
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 500px) {
-  .hamburger {
+  /* .burger {
     visibility: visible;
     opacity: 1;
-  }
+  } */
+
+  /* header div {
+    flex: 0;
+  } */
 }
