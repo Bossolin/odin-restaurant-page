@@ -35,7 +35,7 @@ const Menu = () => {
 
     Hamburger.hamIcon();
 
-    // Listeners();
+    Listeners();
   };
 
   const updateMedia = () => {
